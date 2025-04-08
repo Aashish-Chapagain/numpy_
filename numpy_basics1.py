@@ -120,34 +120,44 @@ import numpy as np
 #             print(z+5)
 
 
+# import numpy as np
+
+# # x = random.choice([3, 5, 7, 9], p=[0.1, 0.3, 0.6, 0.0], size=(3, 5))
+
+# # print(x)
+
+
+
+# # listnum = [1,2,3,4,5,5]
+
+# # x = list(filter(lambda x: x%2==0, listnum))
+# # z = np.array(x)
+# # print(type(z))
+# # print(z.shape)
+
+# arr = [1,4,5,6,23,3,21,45]
+
+# print("Define the count of the number : ")
+
+# numbers = list(map(lambda x : x +2  , arr ))
+# print(numbers)
+
+# even_number = list(filter(lambda x: x % 2 == 0 , numbers))
+# print(even_number)
+
+
+
+
+# even = list(map(int, input("numbers: ").split()))
+# print(even)
+
+
+import matplotlib.pyplot as plt
 import numpy as np
 
-# x = random.choice([3, 5, 7, 9], p=[0.1, 0.3, 0.6, 0.0], size=(3, 5))
+xpoints = np.array([0, 6])
+ypoints = np.array([0, 250])
 
-# print(x)
-
-
-
-# listnum = [1,2,3,4,5,5]
-
-# x = list(filter(lambda x: x%2==0, listnum))
-# z = np.array(x)
-# print(type(z))
-# print(z.shape)
-
-arr = [1,4,5,6,23,3,21,45]
-
-print("Define the count of the number : ")
-
-numbers = list(map(lambda x : x +2  , arr ))
-print(numbers)
-
-even_number = list(filter(lambda x: x % 2 == 0 , numbers))
-print(even_number)
-
-
-
-
-even = list(map(int, input("numbers: ").split()))
-print(even)
-
+plt.plot(xpoints, ypoints)
+plt.switch_backend('TkAgg')
+plt.show
