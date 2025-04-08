@@ -120,8 +120,17 @@ import numpy as np
 #             print(z+5)
 
 
-from numpy import random
+import numpy as np
 
-x = random.choice([3, 5, 7, 9], p=[0.1, 0.3, 0.6, 0.0], size=(3, 5))
+# x = random.choice([3, 5, 7, 9], p=[0.1, 0.3, 0.6, 0.0], size=(3, 5))
 
-print(x)
+# print(x)
+
+
+
+listnum = [1,2,3,4,5,5]
+
+x = list(filter(lambda x: x%2==0, listnum))
+z = np.array(x)
+print(type(z))
+print(z.shape)
