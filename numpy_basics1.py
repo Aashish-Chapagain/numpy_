@@ -128,9 +128,26 @@ import numpy as np
 
 
 
-listnum = [1,2,3,4,5,5]
+# listnum = [1,2,3,4,5,5]
 
-x = list(filter(lambda x: x%2==0, listnum))
-z = np.array(x)
-print(type(z))
-print(z.shape)
+# x = list(filter(lambda x: x%2==0, listnum))
+# z = np.array(x)
+# print(type(z))
+# print(z.shape)
+
+arr = [1,4,5,6,23,3,21,45]
+
+print("Define the count of the number : ")
+
+numbers = list(map(lambda x : x +2  , arr ))
+print(numbers)
+
+even_number = list(filter(lambda x: x % 2 == 0 , numbers))
+print(even_number)
+
+
+
+
+even = list(map(int, input("numbers: ").split()))
+print(even)
+
