@@ -43,3 +43,7 @@ while True :
  elif user_ == "t": 
     print(newarr.T)
     break 
+ 
+
+ elif user_ == " ": 
+    pass
