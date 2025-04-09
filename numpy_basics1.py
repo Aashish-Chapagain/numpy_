@@ -161,3 +161,14 @@ import numpy as np
 # plt.plot(xpoints, ypoints)
 # plt.switch_backend('TkAgg')
 # plt.show
+
+
+
+a = [3,5,2,6,7,83,63,2,6]
+b = list(filter(lambda x : x%2 == 0 , a ))
+print(b)
+
+
+a = []
+b =list(map(int, input("number").split()))
+print(b)
