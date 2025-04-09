@@ -152,12 +152,12 @@ import numpy as np
 # print(even)
 
 
-import matplotlib.pyplot as plt
-import numpy as np
+# import matplotlib.pyplot as plt
+# import numpy as np
 
-xpoints = np.array([0, 6])
-ypoints = np.array([0, 250])
+# xpoints = np.array([0, 6])
+# ypoints = np.array([0, 250])
 
-plt.plot(xpoints, ypoints)
-plt.switch_backend('TkAgg')
-plt.show
+# plt.plot(xpoints, ypoints)
+# plt.switch_backend('TkAgg')
+# plt.show
